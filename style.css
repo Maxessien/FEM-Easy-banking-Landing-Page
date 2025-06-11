@@ -573,4 +573,29 @@ footer .copyrights .footer-btn:hover {
   opacity: 0.6;
 }
 
+.disclaimer {
+  width: 100vw;
+  padding: 1.875rem 1.5625rem;
+}
+.disclaimer p {
+  color: hsl(234, 26%, 14%);
+  text-align: center;
+}
+.disclaimer .d-top {
+  font-weight: 700;
+}
+@media (min-height: 48rem) {
+  .disclaimer .d-top {
+    font-size: 1.125rem;
+  }
+}
+.disclaimer .d-bottom {
+  font-weight: 500;
+}
+@media (min-height: 48rem) {
+  .disclaimer .d-bottom {
+    font-size: 1.0625rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
